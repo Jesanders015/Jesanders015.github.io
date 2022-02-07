@@ -17,6 +17,7 @@
 		<img id="hexagons" src="images/hexagons.png" crossorigin="anonymous" />
 		<img id="house" src="images/tiles.jpg" crossorigin="anonymous" />
 		<img id="face" src="images/alien-face.jpg" crossorigin="anonymous" />
+		<img id="cockpit" src="images/joystick-base.png" crossorigin="anonymous" />
 	</a-assets>
 		
 	<a-sky 
@@ -99,6 +100,7 @@
 		radius = "1.25"
 		position = "12 3 -10"
 		color = "#FFFFFF"
+		material = "src: #cockpit;"
 		shadow = "cast: true; receive: true">
 	</a-sphere>
 	
@@ -109,7 +111,7 @@
 	<a-sphere
 		radius = "0.5"
 		position = "-5 2 -7"
-		rotation = "0 45 0"
+		rotation = "0 -45 0"
 		material = "src: #face;"
 		shadow = "cast: true; receive: true">
 	</a-sphere>
